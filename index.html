@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadil - Frontend Developer</title>
+    <style>
+        /* General Reset and Body Styling */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a; /* Dark background for contrast */
+            color: #f1f5f9;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Full viewport height */
+        }
+
+        .container {
+            text-align: center; /* Center text */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+            border-radius: 10px;
+            width: 90%; /* Responsive width */
+            max-width: 800px; /* Limit maximum width */
+        }
+
+        /* Header Styling */
+        header h1 {
+            font-size: 2.5rem; /* Larger font size */
+            color: #4ade80;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center; /* Center navigation links */
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        nav ul li a {
+            color: #94a3b8;
+            font-size: 1rem;
+            padding: 10px;
+            transition: color 0.3s, background-color 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #0f172a;
+            background-color: #4ade80;
+        }
+
+        /* Hero Section Styling */
+        .hero-content h2 {
+            font-size: 3rem; /* Larger font size */
+            color: #e2e8f0;
+            margin-bottom: 15px;
+        }
+
+        .hero-content .role {
+            color: #4ade80;
+            font-size: 1.8rem; /* Larger font size */
+            margin-bottom: 15px;
+        }
+
+        .hero-content .description {
+            font-size: 1.2rem; /* Larger font size */
+            color: #cbd5e1;
+            margin-bottom: 25px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center; /* Center buttons */
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 15px 30px; /* Larger padding for emphasis */
+            background-color: #3b82f6;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2563eb;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .btn-secondary:hover {
+            background-color: #3b82f6;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ajairaj</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="Main Resume.pdf">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Main Resume.pdf">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Hi, I'm Ajairaj</h2>
+                <p class="role">Frontend Developer</p>
+                <p class="description">
+                    Hi, I'm Ajairaj, a frontend developer dedicated to bringing creative and innovative web designs to life. With a strong foundation in HTML, CSS, and JavaScript, I have a keen eye for design and a passion for creating websites that not only look great but also provide an exceptional user experience. Whether I'm working on a simple landing page or a complex web application, I focus on clean code, responsive layouts, and intuitive interactions. I'm always eager to learn new technologies and improve my skills, striving to keep up with the latest trends in web development. Let's build something amazing together!
+                </p>
+                <div class="buttons">
+                    <a href="" class="btn">Hire Me</a>
+                    <a href="#" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
